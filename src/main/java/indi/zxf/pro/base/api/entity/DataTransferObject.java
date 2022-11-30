@@ -36,6 +36,7 @@ public abstract class DataTransferObject {
     private Date updateDate;
 
     public DataTransferObject() {
+
     }
 
     public String getCreateUserId() {

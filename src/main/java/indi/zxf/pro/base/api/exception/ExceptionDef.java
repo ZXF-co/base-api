@@ -1,7 +1,7 @@
 package indi.zxf.pro.base.api.exception;
 
 /**
- * 统一异常定义
+ * 统一异常定义类
  *
  * @author zhouxiaofa
  * @date 2022/11/22 18:29

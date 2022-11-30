@@ -4,7 +4,7 @@ import indi.zxf.pro.base.api.entity.BusinessObject;
 import indi.zxf.pro.base.api.entity.ViewObject;
 
 /**
- * BO-->VO转换实现定义
+ * BO-->VO转换实现抽象类
  *
  * @author zhouxiaofa
  * @date 2022/11/22 17:45

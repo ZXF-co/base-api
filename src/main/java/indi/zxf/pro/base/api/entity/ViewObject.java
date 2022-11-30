@@ -40,6 +40,7 @@ public abstract class ViewObject {
     private int revision;
 
     public ViewObject() {
+
     }
 
     public String getCreateUserId() {

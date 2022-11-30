@@ -50,10 +50,19 @@ public abstract class AbstractService<Entity extends BusinessObject> implements 
 
     @Override
     public Entity update(Entity entity) {
+        if (null == entity) {
+            throw new IndiException("The Entity is null, can not to update!");
+        }
+        // 主键ID为空,不允许更新
+        if (StringUtils.isBlank(entity.getId())) {
+            throw new IndiException("The Entity does not exists, can not to update!");
+        }
         Entity queryEntity = dataManager.findById(entity.getId());
+        // 主键ID对应Entity不存在,不允许更新
         if (null == queryEntity) {
             throw new IndiException("The Entity with given id: " + entity.getId() + " does not exists, can not to update!");
         }
+        // 设置更新时间
         if (null == entity.getUpdateDate()) {
             entity.setUpdateDate(new Date());
         }
@@ -64,6 +73,7 @@ public abstract class AbstractService<Entity extends BusinessObject> implements 
     @Override
     public void delete(String id) {
         Entity queryEntity = dataManager.findById(id);
+        // 主键ID对应Entity不存在,不允许删除
         if (null == queryEntity) {
             throw new IndiException("The Entity with given id: " + id + " does not exists, can not to delete!");
         }

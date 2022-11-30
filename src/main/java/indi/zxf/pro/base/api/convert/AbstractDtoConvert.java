@@ -4,7 +4,7 @@ import indi.zxf.pro.base.api.entity.BusinessObject;
 import indi.zxf.pro.base.api.entity.DataTransferObject;
 
 /**
- * DTO-->BO转换实现定义
+ * DTO-->BO转换实现抽象类
  *
  * @author zhouxiaofa
  * @date 2022/11/22 15:46
