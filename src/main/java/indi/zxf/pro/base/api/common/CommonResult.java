@@ -34,6 +34,13 @@ public class CommonResult {
     }
 
     /**
+     * 定义统一封装数据格式(wrapper)
+     */
+    public static <O> O unwrap(Wrapper<O> wrapper) {
+        return wrapper.getData();
+    }
+
+    /**
      * 定义统一返回数据格式[正确格式](code + message)
      **/
     public static <O> Wrapper<O> ok() {

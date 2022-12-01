@@ -66,6 +66,8 @@ public abstract class AbstractService<Entity extends BusinessObject> implements 
         if (null == entity.getUpdateDate()) {
             entity.setUpdateDate(new Date());
         }
+        // 设置版本号
+        entity.setRevision(queryEntity.getRevision());
         dataManager.update(entity);
         return dataManager.findById(entity.getId());
     }
