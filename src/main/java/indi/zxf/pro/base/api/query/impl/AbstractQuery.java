@@ -1,4 +1,6 @@
-package indi.zxf.pro.base.api.query;
+package indi.zxf.pro.base.api.query.impl;
+
+import indi.zxf.pro.base.api.query.Query;
 
 /**
  * 基础查询抽象类
@@ -6,7 +8,7 @@ package indi.zxf.pro.base.api.query;
  * @author zhouxiaofa
  * @date 2022/11/29 21:24
  */
-public abstract class AbstractQuery implements Query{
+public abstract class AbstractQuery implements Query {
 
     private String id;
 

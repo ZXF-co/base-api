@@ -1,5 +1,6 @@
-package indi.zxf.pro.base.api.convert;
+package indi.zxf.pro.base.api.convert.impl;
 
+import indi.zxf.pro.base.api.convert.ViewObjectConvert;
 import indi.zxf.pro.base.api.entity.BusinessObject;
 import indi.zxf.pro.base.api.entity.ViewObject;
 
