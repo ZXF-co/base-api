@@ -1,8 +1,9 @@
-package indi.zxf.pro.base.api.service;
+package indi.zxf.pro.base.api.service.impl;
 
 import indi.zxf.pro.base.api.entity.BusinessObject;
 import indi.zxf.pro.base.api.exception.IndiException;
 import indi.zxf.pro.base.api.mapper.AbstractMapper;
+import indi.zxf.pro.base.api.service.Service;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Date;

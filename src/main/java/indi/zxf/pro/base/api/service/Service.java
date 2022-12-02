@@ -1,7 +1,7 @@
 package indi.zxf.pro.base.api.service;
 
 import indi.zxf.pro.base.api.entity.BusinessObject;
-import indi.zxf.pro.base.api.query.AbstractQuery;
+import indi.zxf.pro.base.api.query.impl.AbstractQuery;
 
 import java.util.List;
 

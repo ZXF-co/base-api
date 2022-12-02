@@ -1,4 +1,6 @@
-package indi.zxf.pro.base.api.convert;
+package indi.zxf.pro.base.api.convert.impl;
+
+import indi.zxf.pro.base.api.convert.Convert;
 
 import java.util.ArrayList;
 import java.util.List;
