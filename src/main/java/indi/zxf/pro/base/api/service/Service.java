@@ -6,7 +6,7 @@ import indi.zxf.pro.base.api.query.impl.AbstractQuery;
 import java.util.List;
 
 /**
- * 服务类定义
+ * 基础服务类定义类
  *
  * @author zhouxiaofa
  * @date 2022/11/29 21:06
