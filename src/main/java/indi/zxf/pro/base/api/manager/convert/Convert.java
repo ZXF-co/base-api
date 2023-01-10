@@ -1,9 +1,9 @@
-package indi.zxf.pro.base.api.convert;
+package indi.zxf.pro.base.api.manager.convert;
 
 import java.util.List;
 
 /**
- * 基础转换定义
+ * 模型转换器定义
  *
  * @author zhouxiaofa
  * @date 2022/11/22 16:57

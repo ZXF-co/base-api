@@ -1,6 +1,6 @@
-package indi.zxf.pro.base.api.service.impl;
+package indi.zxf.pro.base.api.manager.service.impl;
 
-import indi.zxf.pro.base.api.service.RedisService;
+import indi.zxf.pro.base.api.manager.service.RedisService;
 import org.springframework.data.redis.core.RedisTemplate;
 
 import javax.annotation.Resource;
