@@ -1,9 +1,9 @@
-package indi.zxf.pro.base.api.service.impl;
+package indi.zxf.pro.base.api.manager.service.impl;
 
-import indi.zxf.pro.base.api.entity.BusinessObject;
+import indi.zxf.pro.base.api.model.impl.BusinessObjectImpl;
 import indi.zxf.pro.base.api.exception.IndiException;
-import indi.zxf.pro.base.api.mapper.AbstractMapper;
-import indi.zxf.pro.base.api.service.Service;
+import indi.zxf.pro.base.api.manager.mapper.AbstractMapper;
+import indi.zxf.pro.base.api.manager.service.Service;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Date;
@@ -16,7 +16,7 @@ import java.util.UUID;
  * @author zhouxiaofa
  * @date 2022/11/29 21:06
  */
-public abstract class AbstractService<Entity extends BusinessObject> implements Service<Entity> {
+public abstract class AbstractService<Entity extends BusinessObjectImpl> implements Service<Entity> {
 
     protected AbstractMapper<Entity> dataManager;
 

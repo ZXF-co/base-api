@@ -1,12 +1,12 @@
-package indi.zxf.pro.base.api.convert.impl;
+package indi.zxf.pro.base.api.manager.convert.impl;
 
-import indi.zxf.pro.base.api.convert.Convert;
+import indi.zxf.pro.base.api.manager.convert.Convert;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 基础转换抽象类
+ * 模型转换器抽象类
  *
  * @author zhouxiaofa
  * @date 2022/11/23 8:36

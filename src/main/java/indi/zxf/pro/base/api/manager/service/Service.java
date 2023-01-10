@@ -1,7 +1,7 @@
-package indi.zxf.pro.base.api.service;
+package indi.zxf.pro.base.api.manager.service;
 
-import indi.zxf.pro.base.api.entity.BusinessObject;
-import indi.zxf.pro.base.api.query.impl.AbstractQuery;
+import indi.zxf.pro.base.api.model.BaseEntity;
+import indi.zxf.pro.base.api.manager.query.impl.AbstractQuery;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import java.util.List;
  * @author zhouxiaofa
  * @date 2022/11/29 21:06
  */
-public interface Service<Entity extends BusinessObject> {
+public interface Service<Entity extends BaseEntity> {
 
     /**
      * 根据主键ID查询数据
@@ -43,22 +43,6 @@ public interface Service<Entity extends BusinessObject> {
      * @param       id-->数据主键ID
      */
     void delete(String id);
-
-    /**
-     * 根据条件查询数据
-     *
-     * @param       condition-->查询条件
-     * @return      查询到的数据
-     */
-    Entity findByCondition(AbstractQuery condition);
-
-    /**
-     * 根据条件查询数据列表
-     *
-     * @param       condition-->查询条件
-     * @return      查询到的数据列表
-     */
-    List<Entity> findListByCondition(AbstractQuery condition);
 
     /**
      * 查询数据列表

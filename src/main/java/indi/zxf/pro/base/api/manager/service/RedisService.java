@@ -1,4 +1,4 @@
-package indi.zxf.pro.base.api.service;
+package indi.zxf.pro.base.api.manager.service;
 
 import java.util.List;
 
